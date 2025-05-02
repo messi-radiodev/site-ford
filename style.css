@@ -3,6 +3,7 @@ footer {
     background-color: #1b357e;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 header {
@@ -23,6 +24,9 @@ header ul li {
     width: 25px;
 }
 
+.logofooter {
+    margin-left: 1600px;
+}
 .menu {
     list-style: none;
 }
