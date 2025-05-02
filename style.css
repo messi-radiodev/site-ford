@@ -1,0 +1,36 @@
+footer {
+    width: 100%;
+    background-color: #1b357e;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: inline-flex;
+    align-items: center;
+}
+
+header ul li {
+    color: #1351d8;
+    margin: 200px;
+}
+
+.textfooter {
+    color: white;
+}
+
+.imgfooter {
+    width: 25px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+main {
+    text-align: center;
+}
