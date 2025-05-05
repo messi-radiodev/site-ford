@@ -1,9 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
 footer {
     width: 100%;
     background-color: #1b357e;
     display: flex;
     align-items: center;
     text-align: center;
+    border-radius: 15px;
 }
 
 header {
@@ -25,7 +36,7 @@ header ul li {
 }
 
 .logofooter {
-    margin-left: 1600px;
+    margin-left: 1620px;
 }
 .menu {
     list-style: none;
@@ -37,4 +48,37 @@ header ul li {
 
 main {
     text-align: center;
+}
+
+.botao_comparar {
+    background-color: #1351d8;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao_enviar {
+    background-color: #1351d8;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.botao_enviar:hover {
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+
+.carro_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
