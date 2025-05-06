@@ -32,7 +32,7 @@ header ul li {
 }
 
 .imgfooter {
-    width: 25px;
+    width: 20px;
 }
 
 .logofooter {
@@ -74,6 +74,7 @@ a {
 .botao_enviar:hover {
     font-size: 20px;
     color: rgb(255, 0, 0);
+    cursor: pointer;
 }
 
 .carro_item {
@@ -81,4 +82,22 @@ a {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+}
+
+table {
+    display: inline-flex;
+    margin: 70px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #1351d8;
 }
