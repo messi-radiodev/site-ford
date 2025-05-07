@@ -45,10 +45,15 @@ header ul li {
     list-style: none;
 }
 
-.menu ul li {
+.menu ul {
     display: inline;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 500px;
+}
+
+.menu li {
+    display: inline-flex;
+    margin: 40px;
 }
 
 main {
@@ -133,3 +138,6 @@ input[type="checkbox"]:checked {
     height: 50px;
 }
 
+p {
+    font-size: small;
+}
