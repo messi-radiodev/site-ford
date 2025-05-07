@@ -1,3 +1,4 @@
+/* configs gerais */
 * {
     margin: 0;
     padding: 0;
@@ -12,15 +13,7 @@ html, body {
     flex-direction: column;
 }
 
-footer {
-    width: 100%;
-    height: 50px;
-    background-color: #1b357e;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
+/* area do header, menu */
 header {
     display: inline-flex;
     align-items: center;
@@ -30,17 +23,6 @@ header ul li {
     color: #1351d8;
 }
 
-.textfooter {
-    color: white;
-}
-
-.imgfooter {
-    width: 20px;
-}
-
-.logofooter {
-    margin-left: 1620px;
-}
 .menu {
     list-style: none;
 }
@@ -55,6 +37,31 @@ header ul li {
     display: inline-flex;
     margin: 40px;
 }
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #1b357e;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.textfooter {
+    color: white;
+}
+
+.imgfooter {
+    width: 20px;
+}
+
+.logofooter {
+    margin-left: 1620px;
+}
+
+/* main e conteudos do main */
 
 main {
     display: flex;
@@ -72,10 +79,6 @@ main {
     height: 50px;
     border-radius: 20px;
     cursor: pointer;
-}
-
-a {
-    text-decoration: none;
 }
 
 .botao_enviar {
@@ -124,8 +127,8 @@ input[type="checkbox"]:checked {
 }
 
 .container img {
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 270px;
 }
 
 .formulario {
@@ -140,4 +143,12 @@ input[type="checkbox"]:checked {
 
 p {
     font-size: small;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: left;
 }
