@@ -1,0 +1,193 @@
+/* RESET GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER E MENU */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    flex-wrap: wrap;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li a {
+    color: #1351d8;
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+/* MAIN */
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-home img,
+.imagem-contato img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* FORMULÁRIO DE CONTATO */
+.container, .conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.formulario {
+    max-width: 400px;
+    width: 100%;
+}
+
+.inputcont {
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+/* TABELAS DE LANÇAMENTO */
+.tabelas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+}
+
+table img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* BOTÕES */
+.botao_enviar {
+    background-color: #1351d8;
+    color: white;
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao_comparar {
+    background-color: #1351d8;
+    color: white;
+    width: 100%;
+    max-width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao_enviar:hover {
+    color: red;
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #1b357e;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footercontatos {
+    color: white;
+    display: inline-flex;
+    justify-content: start;
+}
+
+.imgfooter {
+    width: 20px;
+}
+
+.logofooter {
+    max-width: 60px;
+}
+
+/* CHECKBOX */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    appearance: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #1351d8;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container, .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario {
+        margin-right: 0;
+    }
+
+    .tabelas {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
