@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato ~ FORD</title>
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -24,20 +24,22 @@
             </div>
             <div class="formulario">
                 <h2>Sobre Você</h2> 
-                <br>    
-                <input class="inputcont" type="text" name="" id="" placeholder="Nome*"> <br> <br>
-                <input class="inputcont" type="text" name="" id="" placeholder="Sobrenome*"> <br> <br>
-                <input class="inputcont" type="text" name="" id="" placeholder="E-mail*"> <br> <br>
-                <input class="inputcont" type="text" name="" id="" placeholder="CPF*"> <br> <br>
-                <input class="inputcont" type="text" name="" id="" placeholder="Telefone*"> <br> <br>
-                        <select class="inputcont" name="" id="">
-                            <option value="" disabled selected>Como deseja ser contatado?</option>
-                            <option value="">E-mail</option>
-                            <option value="">Ligação</option>
-                            <option value="">Whatsapp</option>
-                        </select>        
-            <br> <br> <br>
-                <input class="botao_enviar" type="submit" value="Enviar"> <br> <br>
+                <br>
+                <form>   
+                    <input class="inputcont" type="text" name="Nome" placeholder="Nome*" required>
+                    <input class="inputcont" type="text" name="Sobrenome" placeholder="Sobrenome*" required> 
+                    <input class="inputcont" type="text" name="E-mail" placeholder="E-mail*" required> 
+                    <input class="inputcont" type="text" name="CPF" placeholder="CPF*" required>
+                    <input class="inputcont" type="text" name="Telefone" placeholder="Telefone*" required> 
+                            <select class="inputcont" name="" id="" required>
+                                <option value="" disabled selected>Tipo do contato:</option>
+                                <option value="">Elogio</option>
+                                <option value="">Reclamação</option>
+                                <option value="">Solicitação</option>
+                            </select>
+                    <textarea class="inputcont" placeholder="Mensagem*" rows="5"></textarea>
+                </form>        
+                <input class="botao_enviar" type="submit" value="Enviar"> <br>
             </div>
         </div>
     </main>
@@ -46,9 +48,14 @@
             <p>
                 Redes Sociais: 
             </p>
-                <a href="#"><img class="imgfooter" src="img/facebook-50.png" alt="facebook"></a> 
+                <a href="#"><img class="imgfooter" src="img/facebook-50.png" alt="facebook"></a>         
                 <a href="#"><img class="imgfooter" src="img/instagram-logo-50.png" alt="instagram"> </a>
                 <a href="#"><img class="imgfooter" src="img/youtube-squared-50.png" alt="youtube"> </a>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright © 2025 Ford Motor Company
+            </p>
         </div>
         <div class="logofooter">      
             <img src="img/ford-96.png" alt="logo_ford">
