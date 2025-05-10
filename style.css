@@ -271,5 +271,10 @@ input[type="checkbox"]:hover {
         margin-bottom: 5px;
     }
 
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
     
 }
